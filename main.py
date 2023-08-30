@@ -1,14 +1,14 @@
 import tkinter as tk
 import importlib
 import os
-import sys
+import threading
 from tkinter import ttk
 from tkinter.scrolledtext import ScrolledText
 from tkinter import filedialog
 from datetime import datetime
 TITTLE = "PyJsonTest V{} Module: {}"
 __version__ = "1.0.1"
-import threading
+
 
 class DynamicModuleExecutor:
     def __init__(self, module_name):
